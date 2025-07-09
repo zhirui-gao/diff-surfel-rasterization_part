@@ -8,7 +8,7 @@ from utils.sh_utils import eval_sh
 from utils.point_utils import depth_to_normal
 
 
-def render_2d(viewpoint_camera, pc: GaussianModel, pipe, bg_color: torch.Tensor, scaling_modifier=1.0,
+def render_part(viewpoint_camera, pc: GaussianModel, pipe, bg_color: torch.Tensor, scaling_modifier=1.0,
            override_color=None):
     """
     Render the scene.
