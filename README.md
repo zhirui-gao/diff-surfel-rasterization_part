@@ -27,7 +27,6 @@ pip install diff-surfel-rasterization_part
 ```
 
 ```
-common_args = " --quiet --skip_train --depth_ratio 1.0 --num_cluster 1 --voxel_size 0.004 --sdf_trunc 0.016 --depth_trunc 3.0"
-os.system("python render.py --iteration 30000 -s " + source_path + " -m" + args.output_path + "/" + scene + common_args)
+use render_2d()
 
 ```
