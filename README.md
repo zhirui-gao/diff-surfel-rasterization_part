@@ -27,6 +27,6 @@ pip install diff-surfel-rasterization_part
 ```
 
 ```
-use render_2d()
-
+use render_part function in render_part.py
+ 
 ```
